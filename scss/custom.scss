@@ -1,0 +1,37 @@
+h1 {
+  background-color: rgb(241, 238, 234);
+}
+main {
+  align-items: baseline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: auto;
+}
+.colorfooter {
+  background-color: rgb(155, 151, 151);
+}
+.textcolor {
+  color: white;
+}
+
+.fadeIn {
+  opacity: 0.2;
+  transition: opacity 1.5s;
+}
+
+.fadeIn:hover {
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap");
+
+$primary: rgb(103, 156, 103);
+
+$font-family-base: "Montserrat", sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
